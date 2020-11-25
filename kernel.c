@@ -1,4 +1,6 @@
-//
-// Created by Jeremy King on 11/24/20.
-//
+/*
+Author: Jeremy King
+Version: 0.01a
+ 11/24/2020
+ */
 

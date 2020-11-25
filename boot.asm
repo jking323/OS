@@ -1,3 +1,6 @@
+; Author: Jeremy King
+;Version: 0.01a
+;11/24/2020
 ;now prints text to screen
 mov ah, 0x0e ; sets tty mode
 mov al, 'H'
