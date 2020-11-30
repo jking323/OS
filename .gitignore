@@ -14,5 +14,5 @@ gen
 .idea/misc.xml
 .idea/modules.xml
 .idea/vcs.xml
-boot.bin
+Practice/boot.bin
 cmake-build-debug/
