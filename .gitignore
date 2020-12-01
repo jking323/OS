@@ -16,3 +16,4 @@ gen
 .idea/vcs.xml
 Practice/boot.bin
 cmake-build-debug/
+/iso/boot/kernel.bin

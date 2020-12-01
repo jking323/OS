@@ -9,9 +9,5 @@ Version: 0.01a
  Figure out how to get interactive keyboard support
  */
 #include <stdio.h>
+#include <string.h>
 
-int main()
-{
-    printf("hello, world");
-    return 0;
-}
