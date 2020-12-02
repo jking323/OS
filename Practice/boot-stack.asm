@@ -10,7 +10,7 @@ push 'A' ; push moves data into the stack
 push 'B' ; since A is pushed first it is at the bottom of the stack
 push 'C'
 
-;this shows how the stack builds downwarns
+;this shows how the stack builds downwards
 mov al, [0x7ffe] ; 0x8000 -2
 int 0x10 ; video interrupt op code
 

@@ -27,6 +27,24 @@ int 0x10
 mov al, '!'
 int 0x10
 
+stack_ops:
+; the goal is to see how big of a word I can fit
+    mov bp, 0x8000
+    mov sp, bp
+    push 'A'
+    push 's'
+    push 'sh'
+    push 'ol'
+    push 'e'
+    pop bx
+    int 0x10
+    pop bx
+    int 0x10
+    pop bx
+    int 0x10
+    pop bx
+    int 0x10
+
 jmp $ ; jump to current address creating an infinite loop
 ; fills file with 510 zeros minus the size of the jmp loop
 times 510-($-$$) db 0
